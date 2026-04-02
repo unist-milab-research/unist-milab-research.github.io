@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Multisensory Intelligence Lab — UNIST</title>
+  <meta name="description" content="Multisensory Intelligence Lab at UNIST, led by Prof. Arda Senocak. Research in multimodal learning, audio-visual modeling, and sensory data processing." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <header class="navbar">
+    <a href="index.html" class="nav-logo">
+      <img src="imgs/MILAB.png" alt="MILab" class="nav-logo-img" />
+    </a>
+    <div class="nav-inner">
+      <nav class="nav-links">
+        <a href="updates.html">Updates</a>
+        <a href="publications.html">Publications</a>
+        <a href="people.html">People</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">&#9776;</button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="updates.html">Updates</a>
+      <a href="publications.html">Publications</a>
+      <a href="people.html">People</a>
+    </div>
+  </header>
+
+  <main class="split-layout">
+
+    <!-- ══ LEFT COLUMN ══ -->
+    <div class="col-left">
+
+      <!-- ── Hero / Carousel ── -->
+      <section class="hero">
+        <div class="carousel" id="carousel">
+          <div class="carousel-track" id="carouselTrack">
+            <div class="carousel-slide" style="background: linear-gradient(135deg,#2a2724 0%,#1c1918 100%);">
+              <div class="slide-label">UNIST Campus · Spring 2025</div>
+            </div>
+            <div class="carousel-slide" style="background: linear-gradient(135deg,#3a3734 0%,#2a2724 100%);">
+              <div class="slide-label">Lab Retreat · 2025</div>
+            </div>
+            <div class="carousel-slide" style="background: linear-gradient(135deg,#1c1918 0%,#3a3734 100%);">
+              <div class="slide-label">CVPR 2025 · Nashville</div>
+            </div>
+            <div class="carousel-slide" style="background: linear-gradient(135deg,#4a4744 0%,#2a2724 100%);">
+              <div class="slide-label">ICASSP 2025 · Hyderabad</div>
+            </div>
+          </div>
+          <button class="carousel-btn prev" id="carouselPrev" aria-label="Previous">&#8249;</button>
+          <button class="carousel-btn next" id="carouselNext" aria-label="Next">&#8250;</button>
+          <div class="carousel-dots" id="carouselDots"></div>
+        </div>
+      </section>
+
+      <!-- ── Mission ── -->
+      <section class="mission" id="about">
+        <div class="col-section">
+          <h1 class="mission-title">Multisensory Intelligence Lab</h1>
+          <p class="mission-lead">
+            We are a research group at <strong>UNIST</strong> (Ulsan National Institute of Science and Technology),
+            led by <strong>Prof. Arda Senocak</strong>. Our work spans the intersection of perception,
+            representation, and learning across multiple sensory modalities.
+          </p>
+          <p class="mission-body">
+            We develop machine learning models that perceive and reason about the world through
+            multiple senses — as humans do. Our research encompasses
+            <em>multimodal learning</em>, <em>audio-visual modeling</em>, and
+            <em>sensory data processing</em>, with the goal of building AI systems
+            that are grounded in rich, diverse streams of real-world signals.
+          </p>
+          <div class="mission-tags">
+            <span class="tag">Multimodal Learning</span>
+            <span class="tag">Audio-Visual Modeling</span>
+            <span class="tag">Sensory Data Processing</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── People Preview ── -->
+      <section class="people-preview">
+        <div class="col-section">
+          <div class="section-header">
+            <h2 class="section-title">People</h2>
+            <a href="people.html" class="see-all">See all →</a>
+          </div>
+          <div class="people-grid">
+            <div class="person-card">
+              <div class="person-avatar">AS</div>
+              <div class="person-card-body">
+                <h4>Arda Senocak</h4>
+                <p>Principal Investigator</p>
+              </div>
+            </div>
+            <div class="person-card">
+              <div class="person-avatar"><img src="imgs/yewon.jpeg" alt="Yewon Kim" class="student-avatar-img"></div>
+              <div class="person-card-body">
+                <h4>Yewon Kim</h4>
+                <p>PhD Student</p>
+              </div>
+            </div>
+            <div class="person-card join-card">
+              <a href="people.html">
+                <div class="join-icon">+</div>
+                <div class="person-card-body">
+                  <h4>Join Us!</h4>
+                  <p>We are recruiting</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="join-box" style="margin-top:24px;">
+            <h2>Join MILab</h2>
+            <p>
+              We are actively looking for motivated <strong>PhD/MS students</strong> and <strong>Undergraduate interns</strong>
+              passionate about multimodal learning and sensory AI.
+              If you are interested, please send your CV and a brief research statement to
+              <a href="mailto:ardasnck@unist.ac.kr">ardasnck@unist.ac.kr</a>.
+            </p>
+            <a href="mailto:ardasnck@unist.ac.kr" class="join-btn">Contact Prof. Senocak</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── Inline footer for split view ── -->
+      <div class="col-footer">
+        <div class="col-footer-social">
+          <a href="mailto:ardasnck@unist.ac.kr" aria-label="Email" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="2,4 12,14 22,4"/></svg>
+          </a>
+          <a href="https://github.com/unist-milab-research" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+        </div>
+        <p>&copy; 2026 Multisensory Intelligence Lab, UNIST</p>
+      </div>
+
+    </div><!-- /col-left -->
+
+    <!-- ══ RIGHT COLUMN ══ -->
+    <div class="col-right">
+
+      <!-- ── Updates ── -->
+      <section class="updates" id="updates">
+        <div class="col-section">
+          <div class="section-header">
+            <h2 class="section-title">Updates</h2>
+            <a href="updates.html" class="see-all">See all →</a>
+          </div>
+          <div class="updates-list">
+            <div class="update-item">
+              <span class="update-date">Feb 2026</span>
+              <div class="update-content">
+                <span class="update-badge">Paper</span>
+                <p>Three main conference papers are accepted to <strong>CVPR 2026</strong>.</p>
+              </div>
+            </div>
+            <div class="update-item">
+              <span class="update-date">Oct 2025</span>
+              <div class="update-content">
+                <span class="update-badge news">Award</span>
+                <p>Selected as an Outstanding Reviewer at <strong>ICCV 2025</strong>.</p>
+              </div>
+            </div>
+            <div class="update-item">
+              <span class="update-date">Sep 2025</span>
+              <div class="update-content">
+                <span class="update-badge">Paper</span>
+                <p>Paper accepted to <strong>NeurIPS 2025</strong> and <strong>IJCV 2025</strong>.</p>
+              </div>
+            </div>
+            <div class="update-item">
+              <span class="update-date">May 2025</span>
+              <div class="update-content">
+                <span class="update-badge">Paper</span>
+                <p>Paper accepted to <strong>TPAMI 2025</strong>.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── Publications Preview ── -->
+      <section class="publications-preview" id="publications-preview">
+        <div class="col-section">
+          <div class="section-header">
+            <h2 class="section-title">Publications</h2>
+            <a href="publications.html" class="see-all">See all →</a>
+          </div>
+          <div class="pub-card" data-year="2026">
+            <div class="pub-thumb"></div>
+            <div class="pub-info">
+              <h3 class="pub-title">Seeing Through Touch: Tactile-Driven Visual Localization of Material Regions</h3>
+              <p class="pub-authors">Seongyu Kim, Seungwoo Lee, Hyeonggon Ryu, Joon Son Chung, <strong>Arda Senocak</strong></p>
+              <p class="pub-venue"><strong>CVPR 2026</strong></p>
+              <div class="pub-links">
+              </div>
+            </div>
+          </div>
+          <div class="pub-card" data-year="2026">
+            <div class="pub-thumb"></div>
+            <div class="pub-info">
+              <h3 class="pub-title">How Far Can We Go With Synthetic Data for Audio-Visual Sound Source Localization?</h3>
+              <p class="pub-authors"><strong>Arda Senocak*</strong>, Sooyoung Park*, Tae-Hyun Oh, Joon Son Chung</p>
+              <p class="pub-venue"><strong>CVPR 2026</strong></p>
+              <div class="pub-links">
+              </div>
+            </div>
+          </div>
+          <div class="pub-card" data-year="2026">
+            <div class="pub-thumb"></div>
+            <div class="pub-info">
+              <h3 class="pub-title">Cinematic Audio Source Separation Using Visual Cues</h3>
+              <p class="pub-authors">Kang Zhang*, Suyeon Lee*, <strong>Arda Senocak</strong>, Joon Son Chung</p>
+              <p class="pub-venue"><strong>CVPR 2026</strong></p>
+              <div class="pub-links">
+                <a href="https://cass-flowmatching.github.io/" class="pub-link">Project</a>
+                <a href="https://arxiv.org/pdf/2603.26113" class="pub-link">PDF</a>
+                <a href="https://github.com/pantheon5100/AVCASS" class="pub-link">Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div><!-- /col-right -->
+
+  </main>
+
+  <!-- ── Footer ── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="imgs/MILAB.png" alt="MILab" class="footer-logo-img" />
+          <p>Multisensory Intelligence Lab<br>UNIST · Ulsan, South Korea</p>
+        </div>
+        <div class="footer-links">
+          <a href="updates.html">Updates</a>
+          <a href="publications.html">Publications</a>
+          <a href="people.html">People</a>
+        </div>
+        <div class="footer-social">
+          <a href="mailto:ardasnck@unist.ac.kr" class="social-link" aria-label="Email" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="2,4 12,14 22,4"/></svg>
+          </a>
+          <a href="https://github.com/unist-milab-research" class="social-link" aria-label="GitHub" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+        </div>
+      </div>
+      <p class="footer-copy">&copy; 2026 Multisensory Intelligence Lab, UNIST. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
