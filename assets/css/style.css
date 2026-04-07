@@ -547,8 +547,8 @@ a:hover { opacity: 0.75; }
 
 .people-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
 }
 
 .person-card {
@@ -589,11 +589,11 @@ a:hover { opacity: 0.75; }
 }
 
 .person-card-body {
-  padding: 14px 12px 16px;
+  padding: 10px 8px 12px;
 }
 
-.person-card h4 { font-size: 0.88rem; font-weight: 600; margin-bottom: 4px; }
-.person-card p { font-size: 0.78rem; color: var(--text-3); }
+.person-card h4 { font-size: 0.80rem; font-weight: 600; margin-bottom: 3px; }
+.person-card p { font-size: 0.70rem; color: var(--text-3); }
 
 .join-card a {
   display: block;
@@ -661,24 +661,24 @@ a:hover { opacity: 0.75; }
 }
 
 .pub-thumb {
-  width: 160px;
-  height: 110px;
+  width: 200px;
+  height: 130px;
   border-radius: 8px;
   flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--bg-3);
-  border: 1px solid var(--border);
+  background: var(--bg);
   overflow: hidden;
   color: var(--text-3);
   font-size: 0.8rem;
 }
 
 .pub-thumb img {
+  display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .pub-title {
@@ -698,6 +698,23 @@ a:hover { opacity: 0.75; }
   font-size: 0.83rem;
   color: var(--text-3);
   margin-bottom: 10px;
+}
+
+.pub-legend {
+  font-size: 0.82rem;
+  color: var(--text-3);
+  margin-bottom: 12px;
+}
+
+.pub-legend-symbol {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.pub-meta {
+  font-size: 0.80rem;
+  color: #e53e3e;
+  margin-left: 4px;
 }
 
 .pub-links { display: flex; gap: 8px; }
@@ -819,7 +836,7 @@ a:hover { opacity: 0.75; }
   .col-footer         { order: 6; border-top: 1px solid var(--border); }
   .areas-grid { grid-template-columns: repeat(3, 1fr); }
   .projects-grid { grid-template-columns: 1fr 1fr; }
-  .people-grid { grid-template-columns: repeat(4, 1fr); }
+  .people-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 640px) {

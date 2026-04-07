@@ -1,0 +1,6 @@
+- index.html의 기존의 tags를 모두 제거하고, ‘Audio-visual learning’, ‘visual-tactile learning’ ‘visual-olfactory learning’, ‘audio/speech processing’, ‘sensrooy data processing’으로 변경
+- index.html의 people의 각 인물 카드를 더 작게 변경
+- index.html의 people의 join us 카드의 인물 부분의 사람 캐릭터를 그려주고 ‘join us!’는 ‘Is that you?’로 변경하고 ‘we are recruiting’은 ‘Join us!’로 변경
+- index.html의 publications 부분은 publications.html과 동일하게 equal contribution과 corresponding author 표시
+- 모든 파일의 ‘Updates’는 ’News’로 변경
+- 모든 파일의 nevigator bar 순서는 ’News - People - Publications’로 변경

@@ -18,9 +18,9 @@
     </a>
     <div class="nav-inner">
       <nav class="nav-links">
-        <a href="updates.html">Updates</a>
-        <a href="publications.html">Publications</a>
+        <a href="news.html">News</a>
         <a href="people.html">People</a>
+        <a href="publications.html">Publications</a>
       </nav>
       <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
         <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
@@ -29,9 +29,9 @@
       <button class="hamburger" id="hamburger" aria-label="Open menu">&#9776;</button>
     </div>
     <div class="mobile-menu" id="mobileMenu">
-      <a href="updates.html">Updates</a>
-      <a href="publications.html">Publications</a>
+      <a href="news.html">News</a>
       <a href="people.html">People</a>
+      <a href="publications.html">Publications</a>
     </div>
   </header>
 
@@ -81,8 +81,11 @@
           </p>
           <div class="mission-tags">
             <span class="tag">Multimodal Learning</span>
-            <span class="tag">Audio-Visual Modeling</span>
-            <span class="tag">Sensory Data Processing</span>
+            <span class="tag">Audio-visual learning</span>
+            <span class="tag">Visual-tactile learning</span>
+            <span class="tag">Visual-olfactory learning</span>
+            <span class="tag">Audio/speech processing</span>
+            <span class="tag">Sensory data processing</span>
           </div>
         </div>
       </section>
@@ -96,7 +99,7 @@
           </div>
           <div class="people-grid">
             <div class="person-card">
-              <div class="person-avatar">AS</div>
+              <div class="person-avatar"><img src="imgs/arda.jpg" alt="Arda" class="student-avatar-img"></div>
               <div class="person-card-body">
                 <h4>Arda Senocak</h4>
                 <p>Principal Investigator</p>
@@ -118,10 +121,15 @@
             </div>
             <div class="person-card join-card">
               <a href="people.html">
-                <div class="join-icon">+</div>
+                <div class="join-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="44" height="44" fill="currentColor" opacity="0.7">
+                    <circle cx="24" cy="14" r="9"/>
+                    <path d="M8 44c0-8.837 7.163-16 16-16s16 7.163 16 16H8z"/>
+                  </svg>
+                </div>
                 <div class="person-card-body">
-                  <h4>Join Us!</h4>
-                  <p>We are recruiting</p>
+                  <h4>Is that you?</h4>
+                  <p>Join us!</p>
                 </div>
               </a>
             </div>
@@ -161,8 +169,8 @@
       <section class="updates" id="updates">
         <div class="col-section">
           <div class="section-header">
-            <h2 class="section-title">Updates</h2>
-            <a href="updates.html" class="see-all">See all →</a>
+            <h2 class="section-title">News</h2>
+            <a href="news.html" class="see-all">See all →</a>
           </div>
           <div class="updates-list">
             <div class="update-item">
@@ -204,32 +212,36 @@
             <h2 class="section-title">Publications</h2>
             <a href="publications.html" class="see-all">See all →</a>
           </div>
+          <p class="pub-legend">
+            <span class="pub-legend-symbol">*</span> Equal Contribution &nbsp;&nbsp;·&nbsp;&nbsp;
+            <span class="pub-legend-symbol">†</span> Corresponding Author
+          </p>
           <div class="pub-card" data-year="2026">
-            <div class="pub-thumb"></div>
+            <div class="pub-thumb"><img src="imgs/localizeTouch.png" alt="Seeing Through Touch teaser"></div>
             <div class="pub-info">
               <h3 class="pub-title">Seeing Through Touch: Tactile-Driven Visual Localization of Material Regions</h3>
-              <p class="pub-authors">Seongyu Kim, Seungwoo Lee, Hyeonggon Ryu, Joon Son Chung, <strong>Arda Senocak</strong></p>
-              <p class="pub-venue"><strong>CVPR 2026</strong></p>
+              <p class="pub-authors">Seongyu Kim, Seungwoo Lee, Hyeonggon Ryu, Joon Son Chung, <strong>Arda Senocak</strong>†</p>
+              <p class="pub-venue"><strong>CVPR 2026</strong> <span class="pub-meta">(† Corresponding Author)</span></p>
               <div class="pub-links">
               </div>
             </div>
           </div>
           <div class="pub-card" data-year="2026">
-            <div class="pub-thumb"></div>
+            <div class="pub-thumb"><img src="imgs/synthetic_ssl.png" alt="Synthetic SSL teaser"></div>
             <div class="pub-info">
               <h3 class="pub-title">How Far Can We Go With Synthetic Data for Audio-Visual Sound Source Localization?</h3>
               <p class="pub-authors"><strong>Arda Senocak*</strong>, Sooyoung Park*, Tae-Hyun Oh, Joon Son Chung</p>
-              <p class="pub-venue"><strong>CVPR 2026</strong></p>
+              <p class="pub-venue"><strong>CVPR 2026</strong> <span class="pub-meta">(* Equal Contribution)</span></p>
               <div class="pub-links">
               </div>
             </div>
           </div>
           <div class="pub-card" data-year="2026">
-            <div class="pub-thumb"></div>
+            <div class="pub-thumb"><img src="imgs/avCASS.png" alt="CASS teaser"></div>
             <div class="pub-info">
               <h3 class="pub-title">Cinematic Audio Source Separation Using Visual Cues</h3>
-              <p class="pub-authors">Kang Zhang*, Suyeon Lee*, <strong>Arda Senocak</strong>, Joon Son Chung</p>
-              <p class="pub-venue"><strong>CVPR 2026</strong></p>
+              <p class="pub-authors">Kang Zhang*, Suyeon Lee*, <strong>Arda Senocak</strong>†, Joon Son Chung</p>
+              <p class="pub-venue"><strong>CVPR 2026</strong> <span class="pub-meta">(† Co-Corresponding Author)</span></p>
               <div class="pub-links">
                 <a href="https://cass-flowmatching.github.io/" class="pub-link">Project</a>
                 <a href="https://arxiv.org/pdf/2603.26113" class="pub-link">PDF</a>
@@ -253,9 +265,9 @@
           <p>Multisensory Intelligence Lab<br>UNIST · Ulsan, South Korea</p>
         </div>
         <div class="footer-links">
-          <a href="updates.html">Updates</a>
-          <a href="publications.html">Publications</a>
+          <a href="news.html">News</a>
           <a href="people.html">People</a>
+          <a href="publications.html">Publications</a>
         </div>
         <div class="footer-social">
           <a href="mailto:ardasnck@unist.ac.kr" class="social-link" aria-label="Email" target="_blank">
