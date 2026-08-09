@@ -441,6 +441,12 @@ body {
   margin-bottom: 14px;
 }
 
+.join-subtitle {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 20px 0 8px;
+}
+
 .join-list {
   list-style: disc;
   padding-left: 22px;
