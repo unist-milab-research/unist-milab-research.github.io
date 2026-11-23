@@ -237,7 +237,7 @@ body {
 .join-btn {
   display: inline-block;
   background: var(--accent);
-  color: #fff;
+  /* color: #fff; */
   padding: 10px 28px;
   border-radius: 8px;
   font-size: 0.9rem;
@@ -460,7 +460,8 @@ body {
   margin-bottom: 6px;
 }
 
-.join-section a {
+/* .join-section a { */
+.join-section a:not(.join-btn) {
   color: var(--text);
   text-decoration: underline;
   text-underline-offset: 3px;
